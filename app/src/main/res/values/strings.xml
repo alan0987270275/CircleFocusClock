@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CircleFocusClock</string>
+    <string name="title_total_goal">Total Goal</string>
+    <string name="message_total_goal">%1$dh %2$dm</string>
+</resources>
