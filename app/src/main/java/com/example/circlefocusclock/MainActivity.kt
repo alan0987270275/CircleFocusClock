@@ -8,6 +8,7 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.circlefocusclock.ui.HomeScreen
 import com.example.circlefocusclock.ui.components.MainPanel
 import com.example.circlefocusclock.ui.theme.CircleFocusClockTheme
 
@@ -18,22 +19,17 @@ class MainActivity : ComponentActivity() {
             CircleFocusClockTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
-                    MainPanel()
+                    HomeScreen()
                 }
             }
         }
     }
 }
 
-@Composable
-fun Greeting(name: String) {
-    Text(text = "Hello $name!")
-}
-
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
     CircleFocusClockTheme {
-        MainPanel()
+        HomeScreen()
     }
 }
